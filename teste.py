@@ -1,7 +1,9 @@
 import PySimpleGUI as sg
 
 sg.theme('DarkGreen')
-layout = [sg.Text('Enter something on Row 2'), sg.InputText()]
+layout = [[sg.Text('Your typed chars appear here:'), sg.Text(size=(15,1), key='-OUTPUT-')],
+          [sg.Input(key='-IN-')],
+          [sg.Button('Show'), sg.Button('Exit')]]
 
 window = sg.Window('Window Title', layout)
 while True:
