@@ -26,4 +26,6 @@ for i in range(5000):
 window.close()
 #for i in range(1,1000):
 #    sg.OneLineProgressMeter('Calculando chances', i+1, 1000, ' ', 'Acessando banco de dados...')
-sg.Popup('Seus números da sorte são: ', f"{mega_sena}")
+
+
+sg.Popup('Seus números da sorte são: ', f'{mega_sena}')
