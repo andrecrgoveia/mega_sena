@@ -3,6 +3,7 @@ from random import randint
 
 mega_sena = []
 
+# Creating loop
 for i in range(1, 7):
     mega_sena.append(randint(1, 60))
 
