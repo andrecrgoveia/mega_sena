@@ -1,6 +1,7 @@
 import PySimpleGUI as sg
 from random import randint
 
+# List empty
 mega_sena = []
 
 # Creating loop
