@@ -9,6 +9,7 @@ mega_sena = []
 for i in range(1, 7):
     mega_sena.append(randint(1, 60))
 
+# Library PySimpleGui start
 text = sg.PopupGetText('Qual loteria você quer?', 'LOTERIAS!')
 # layout the Window
 layout = [[sg.Text('Calculando os melhores números')],
