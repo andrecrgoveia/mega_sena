@@ -16,7 +16,7 @@ layout = [[sg.Text('Calculando os melhores números')],
           [sg.ProgressBar(5000, orientation='h', size=(20, 20), key='progbar')],
           [sg.Cancel()]]
 
-# create the Window
+# create the Window and gets open
 window = sg.Window('Progresso', layout)
 # loop that would normally do something useful
 for i in range(5000):
